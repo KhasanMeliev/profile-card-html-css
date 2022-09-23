@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #011936;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 430px;
+    background-color: #f4fffd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #011936;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    gap: 5px;
+    color: #011936;
+}
+
+.name h1 {
+    font-size: 30px;
+}
+
+.name p {
+    font-size: 23px;
+}
+
+.follow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px 0px;
+    color: #011936;
+}
+
+.follow p {
+    font-size: 20px;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.icons .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #011936;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #f4fffd;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icons .icon:hover {
+    transform: rotate(360deg);
+    margin-top: -10px;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.skills button {
+    background-color: #011936;
+    color: #f4fffd;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
